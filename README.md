@@ -1,3 +1,8 @@
+# LuaEnum
+## An implementation of enums in Lua
+
+Example:
+```lua
 local LuaEnum = require("LuaEnum");
 
 local InputType = LuaEnum("InputType", {
@@ -19,3 +24,4 @@ local InputType = LuaEnum("InputType", {
 print(InputType.Mouse.BUTTON1);
 print(InputType.Keyboard.SPACE);
 print(InputType.Keyboard.NOTREAL);
+```
